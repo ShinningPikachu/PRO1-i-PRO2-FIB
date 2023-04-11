@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8081108-a32e-4dff-88c1-aaeda6d60657" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/P15613.x" beforeDir="false" afterPath="$PROJECT_DIR$/P15613.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P31170.x" beforeDir="false" afterPath="$PROJECT_DIR$/P31170.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P34279.x" beforeDir="false" afterPath="$PROJECT_DIR$/P34279.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P37469.x" beforeDir="false" afterPath="$PROJECT_DIR$/P37469.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P42042.x" beforeDir="false" afterPath="$PROJECT_DIR$/P42042.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P48107.x" beforeDir="false" afterPath="$PROJECT_DIR$/P48107.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P51126.x" beforeDir="false" afterPath="$PROJECT_DIR$/P51126.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P51352.x" beforeDir="false" afterPath="$PROJECT_DIR$/P51352.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P56559.x" beforeDir="false" afterPath="$PROJECT_DIR$/P56559.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P61634.x" beforeDir="false" afterPath="$PROJECT_DIR$/P61634.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P70955.x" beforeDir="false" afterPath="$PROJECT_DIR$/P70955.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P89265.x" beforeDir="false" afterPath="$PROJECT_DIR$/P89265.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P90226.x" beforeDir="false" afterPath="$PROJECT_DIR$/P90226.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P90226_false.x" beforeDir="false" afterPath="$PROJECT_DIR$/P90226_false.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P92613.x" beforeDir="false" afterPath="$PROJECT_DIR$/P92613.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P98960.x" beforeDir="false" afterPath="$PROJECT_DIR$/P98960.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.x" beforeDir="false" afterPath="$PROJECT_DIR$/test.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_string." beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_string.x" beforeDir="false" afterPath="$PROJECT_DIR$/test_string.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x54725.x" beforeDir="false" afterPath="$PROJECT_DIR$/x54725.x" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OIkFTNFq1omJw9Zz1oK2q6BePa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8081108-a32e-4dff-88c1-aaeda6d60657" name="Changes" comment="" />
+      <created>1681255380370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681255380370</updated>
+      <workItem from="1681255382156" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

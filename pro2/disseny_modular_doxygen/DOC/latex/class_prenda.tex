@@ -1,0 +1,138 @@
+\hypertarget{class_prenda}{}\section{Referencia de la Clase Prenda}
+\label{class_prenda}\index{Prenda@{Prenda}}
+
+
+Representa una prenda de ropa con atributos peso y color.  
+
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_prenda_adfd86b131c7f40c58b0cb4200eb55129}{Prenda}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_prenda_af15ff723083040b89bc495b4ec4b914e}{Prenda}} (int pes, bool col)
+\begin{DoxyCompactList}\small\item\em Creadora con valores concretos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prenda_ab25b2a66034eb2c0fccfb1f3cedbb5a7}{modificar}} (int pes, bool col)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_prenda_aef786876c5b4bb4f8f7fdd980f332b14}{consul\+\_\+peso}} () const
+\begin{DoxyCompactList}\small\item\em Consultora del peso. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_prenda_a81575030ecbaabf350091f54612033f4}{consul\+\_\+color}} () const
+\begin{DoxyCompactList}\small\item\em Consultora del color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_prenda_a6261b483bb78e47266e353fdd11c3077}{escribir}} () const
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Representa una prenda de ropa con atributos peso y color. 
+
+Todas las operaciones son de {\bfseries coste constante} 
+
+Definición en la línea 19 del archivo Prenda.\+hh.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_prenda_adfd86b131c7f40c58b0cb4200eb55129}\label{class_prenda_adfd86b131c7f40c58b0cb4200eb55129}} 
+\index{Prenda@{Prenda}!Prenda@{Prenda}}
+\index{Prenda@{Prenda}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{Prenda()}{Prenda()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Prenda\+::\+Prenda (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar una prenda. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una prenda de peso 0 y color blanco 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_prenda_af15ff723083040b89bc495b4ec4b914e}\label{class_prenda_af15ff723083040b89bc495b4ec4b914e}} 
+\index{Prenda@{Prenda}!Prenda@{Prenda}}
+\index{Prenda@{Prenda}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{Prenda()}{Prenda()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Prenda\+::\+Prenda (\begin{DoxyParamCaption}\item[{int}]{pes,  }\item[{bool}]{col }\end{DoxyParamCaption})}
+
+
+
+Creadora con valores concretos. 
+
+\begin{DoxyPrecond}{Precondición}
+pes$>$0 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una prenda con peso \char`\"{}pes\char`\"{} y color \char`\"{}col\char`\"{} 
+\end{DoxyPostcond}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_prenda_ab25b2a66034eb2c0fccfb1f3cedbb5a7}\label{class_prenda_ab25b2a66034eb2c0fccfb1f3cedbb5a7}} 
+\index{Prenda@{Prenda}!modificar@{modificar}}
+\index{modificar@{modificar}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{modificar()}{modificar()}}
+{\footnotesize\ttfamily void Prenda\+::modificar (\begin{DoxyParamCaption}\item[{int}]{pes,  }\item[{bool}]{col }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+pes$>$0 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El parámetro implícito pasa a tener peso \char`\"{}pes\char`\"{} y color \char`\"{}col\char`\"{} 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_prenda_aef786876c5b4bb4f8f7fdd980f332b14}\label{class_prenda_aef786876c5b4bb4f8f7fdd980f332b14}} 
+\index{Prenda@{Prenda}!consul\+\_\+peso@{consul\+\_\+peso}}
+\index{consul\+\_\+peso@{consul\+\_\+peso}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{consul\+\_\+peso()}{consul\_peso()}}
+{\footnotesize\ttfamily int Prenda\+::consul\+\_\+peso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Consultora del peso. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es el peso del parámetro implícito 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_prenda_a81575030ecbaabf350091f54612033f4}\label{class_prenda_a81575030ecbaabf350091f54612033f4}} 
+\index{Prenda@{Prenda}!consul\+\_\+color@{consul\+\_\+color}}
+\index{consul\+\_\+color@{consul\+\_\+color}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{consul\+\_\+color()}{consul\_color()}}
+{\footnotesize\ttfamily bool Prenda\+::consul\+\_\+color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Consultora del color. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es el color del parámetro implícito 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_prenda_a6261b483bb78e47266e353fdd11c3077}\label{class_prenda_a6261b483bb78e47266e353fdd11c3077}} 
+\index{Prenda@{Prenda}!escribir@{escribir}}
+\index{escribir@{escribir}!Prenda@{Prenda}}
+\subsubsection{\texorpdfstring{escribir()}{escribir()}}
+{\footnotesize\ttfamily void Prenda\+::escribir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han escrito los atributos del parámetro implícito en el canal standard de salida. 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_prenda_8hh}{Prenda.\+hh}}\end{DoxyCompactItemize}

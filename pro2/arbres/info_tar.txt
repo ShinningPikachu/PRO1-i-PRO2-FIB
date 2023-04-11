@@ -1,0 +1,9 @@
+Para crear el archivo sol.tar se puede usar la instrucción en un terminal:
+
+tar -cvf sol.tar program.cc CuaIOParInt.hh CuaIOParInt.cc
+
+El archivo sol.tar contendrá los archivos: 
+
+program.cc 
+BinTreeIOParInt.hh 
+BinTreeIOParInt.cc

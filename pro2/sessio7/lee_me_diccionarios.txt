@@ -1,0 +1,10 @@
+Esta sesión tiene una parte dedicada a mostrar el funcionamiento de la
+clase map (diccionario, generica<clave,valor>)
+
+La carpeta con los materiales necesarios se llama "diccionaris"
+
+También hay ejercicios de diccionarios en el jutge
+
+Esta clase se introduce directamente en el laboratorio, no la habéis
+visto en clase de teoría.
+

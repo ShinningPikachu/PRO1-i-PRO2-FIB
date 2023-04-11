@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Laboratorio de PRO2. Ejercicio &#39;Gestión de una lavadora&#39;.: Referencia de la Clase Lavadora</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Laboratorio de PRO2. Ejercicio &#39;Gestión de una lavadora&#39;.
+   &#160;<span id="projectnumber">version 4 15-abr-2018</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="class_lavadora-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase Lavadora</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa una lavadora.  
+ <a href="class_lavadora.html#details">Más...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2366b1cd0ba86f8ef8ba8504067dc114"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a2366b1cd0ba86f8ef8ba8504067dc114">Lavadora</a> ()</td></tr>
+<tr class="memdesc:a2366b1cd0ba86f8ef8ba8504067dc114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creadora por defecto.  <a href="#a2366b1cd0ba86f8ef8ba8504067dc114">Más...</a><br /></td></tr>
+<tr class="separator:a2366b1cd0ba86f8ef8ba8504067dc114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a733af02910dca3f75390be4ca6ac84f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a733af02910dca3f75390be4ca6ac84f6">inicializar</a> (int pmax, bool col)</td></tr>
+<tr class="memdesc:a733af02910dca3f75390be4ca6ac84f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa la lavadora.  <a href="#a733af02910dca3f75390be4ca6ac84f6">Más...</a><br /></td></tr>
+<tr class="separator:a733af02910dca3f75390be4ca6ac84f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e465e1f11ba5ba3cffcee1ce9507e79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a7e465e1f11ba5ba3cffcee1ce9507e79">anadir_prenda</a> (const <a class="el" href="class_prenda.html">Prenda</a> &amp;p)</td></tr>
+<tr class="memdesc:a7e465e1f11ba5ba3cffcee1ce9507e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Añade una prenda a la lavadora.  <a href="#a7e465e1f11ba5ba3cffcee1ce9507e79">Más...</a><br /></td></tr>
+<tr class="separator:a7e465e1f11ba5ba3cffcee1ce9507e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bd403e688482030fcb95f0c3fd62d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a82bd403e688482030fcb95f0c3fd62d1">lavado</a> ()</td></tr>
+<tr class="memdesc:a82bd403e688482030fcb95f0c3fd62d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Realiza un lavado.  <a href="#a82bd403e688482030fcb95f0c3fd62d1">Más...</a><br /></td></tr>
+<tr class="separator:a82bd403e688482030fcb95f0c3fd62d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af081f8133ddfca2fd4f1f79575620c5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#af081f8133ddfca2fd4f1f79575620c5a">esta_inicializada</a> () const</td></tr>
+<tr class="memdesc:af081f8133ddfca2fd4f1f79575620c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora del estado de la lavadora.  <a href="#af081f8133ddfca2fd4f1f79575620c5a">Más...</a><br /></td></tr>
+<tr class="separator:af081f8133ddfca2fd4f1f79575620c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d538cc8efce89e5da5a38d879bb2659"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a5d538cc8efce89e5da5a38d879bb2659">consultar_color</a> () const</td></tr>
+<tr class="memdesc:a5d538cc8efce89e5da5a38d879bb2659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora del color de la lavadora.  <a href="#a5d538cc8efce89e5da5a38d879bb2659">Más...</a><br /></td></tr>
+<tr class="separator:a5d538cc8efce89e5da5a38d879bb2659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411751a432a84ab91196e6b827190f05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a411751a432a84ab91196e6b827190f05">consultar_peso</a> () const</td></tr>
+<tr class="memdesc:a411751a432a84ab91196e6b827190f05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora del peso actual de la lavadora.  <a href="#a411751a432a84ab91196e6b827190f05">Más...</a><br /></td></tr>
+<tr class="separator:a411751a432a84ab91196e6b827190f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725ef6a2786b400e0cffebe7a690602e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a725ef6a2786b400e0cffebe7a690602e">consultar_peso_maximo</a> () const</td></tr>
+<tr class="memdesc:a725ef6a2786b400e0cffebe7a690602e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora del peso máximo de la lavadora.  <a href="#a725ef6a2786b400e0cffebe7a690602e">Más...</a><br /></td></tr>
+<tr class="separator:a725ef6a2786b400e0cffebe7a690602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2372c33a5f76dda6e3892d118ae726f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lavadora.html#a2372c33a5f76dda6e3892d118ae726f1">escribir</a> () const</td></tr>
+<tr class="memdesc:a2372c33a5f76dda6e3892d118ae726f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura.  <a href="#a2372c33a5f76dda6e3892d118ae726f1">Más...</a><br /></td></tr>
+<tr class="separator:a2372c33a5f76dda6e3892d118ae726f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Representa una lavadora. </p>
+<p>Dispone de dos estados posibles (inicializada / no inicializada); si está inicializada tiene un peso máximo y un color y puede contener prendas de dicho color hasta alcanzar dicho peso máximo; si no está inicializada no contiene ninguna prenda y solo se puede inicializar</p>
+<p>Todas las operaciones son de <b>coste constante</b> salvo las indicadas </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_lavadora_8hh_source.html#l00020">20</a> del archivo <a class="el" href="_lavadora_8hh_source.html">Lavadora.hh</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="a2366b1cd0ba86f8ef8ba8504067dc114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2366b1cd0ba86f8ef8ba8504067dc114">&#9670;&nbsp;</a></span>Lavadora()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Lavadora::Lavadora </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creadora por defecto. </p>
+<p>Se ejecuta automáticamente al declarar una lavadora. </p><dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es una lavadora no inicializada </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a733af02910dca3f75390be4ca6ac84f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a733af02910dca3f75390be4ca6ac84f6">&#9670;&nbsp;</a></span>inicializar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lavadora::inicializar </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>col</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inicializa la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito no está inicializado, pmax&gt;0 </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El parámetro implícito pasa a estar inicializado con peso máximo "pmax" y color "col" </dd></dl>
+
+</div>
+</div>
+<a id="a7e465e1f11ba5ba3cffcee1ce9507e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e465e1f11ba5ba3cffcee1ce9507e79">&#9670;&nbsp;</a></span>anadir_prenda()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lavadora::anadir_prenda </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_prenda.html">Prenda</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Añade una prenda a la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito (L) está inicializado, color de p = color de L, peso de L + peso de p &lt;= peso máximo de L </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El parámetro implícito contiene su carga original más p </dd></dl>
+
+</div>
+</div>
+<a id="a82bd403e688482030fcb95f0c3fd62d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82bd403e688482030fcb95f0c3fd62d1">&#9670;&nbsp;</a></span>lavado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lavadora::lavado </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Realiza un lavado. </p>
+<p>Representa que se realiza el lavado, se retiran la prendas que contiene la lavadora y ésta queda en estado de volver a usarse </p><dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito está inicializado </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El parámetro implícito no está inicializado </dd></dl>
+<dl class="section user"><dt>Coste Lineal respecto al número de prendas del parámetro implícito</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af081f8133ddfca2fd4f1f79575620c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af081f8133ddfca2fd4f1f79575620c5a">&#9670;&nbsp;</a></span>esta_inicializada()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lavadora::esta_inicializada </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora del estado de la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado indica si el parámetro implícito está inicializado </dd></dl>
+
+</div>
+</div>
+<a id="a5d538cc8efce89e5da5a38d879bb2659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d538cc8efce89e5da5a38d879bb2659">&#9670;&nbsp;</a></span>consultar_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Lavadora::consultar_color </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora del color de la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito está inicializado </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el color del parámetro implícito </dd></dl>
+
+</div>
+</div>
+<a id="a411751a432a84ab91196e6b827190f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a411751a432a84ab91196e6b827190f05">&#9670;&nbsp;</a></span>consultar_peso()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Lavadora::consultar_peso </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora del peso actual de la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito está inicializado </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es la suma de los pesos de las prendas del parámetro implícito </dd></dl>
+
+</div>
+</div>
+<a id="a725ef6a2786b400e0cffebe7a690602e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725ef6a2786b400e0cffebe7a690602e">&#9670;&nbsp;</a></span>consultar_peso_maximo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Lavadora::consultar_peso_maximo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora del peso máximo de la lavadora. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito está inicializado </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el peso máximo del parámetro implícito </dd></dl>
+
+</div>
+</div>
+<a id="a2372c33a5f76dda6e3892d118ae726f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2372c33a5f76dda6e3892d118ae726f1">&#9670;&nbsp;</a></span>escribir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Lavadora::escribir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>El parámetro implícito está inicializado </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Escribe las propiedades y el contenido del parámetro implícito por el canal estándar de salida </dd></dl>
+<dl class="section user"><dt>Coste Lineal respecto al número de prendas del parámetro implícito</dt><dd></dd></dl>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li><a class="el" href="_lavadora_8hh_source.html">Lavadora.hh</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,135 @@
+\hypertarget{class_cubeta}{}\section{Referencia de la Clase Cubeta}
+\label{class_cubeta}\index{Cubeta@{Cubeta}}
+
+
+Representa una cubeta de ropa.  
+
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cubeta_ae85e70c9cd67454446439891e3f435e1}{Cubeta}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cubeta_a9615e48038899c5732f61661585f12c7}{Cubeta}} (const \mbox{\hyperlink{class_cubeta}{Cubeta}} \&c)
+\begin{DoxyCompactList}\small\item\em Creadora copiadora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cubeta_a431873df8f99cebe56b4787a5271e395}{anadir\+\_\+prenda}} (const \mbox{\hyperlink{class_prenda}{Prenda}} \&p)
+\begin{DoxyCompactList}\small\item\em Añade una prenda a la cubeta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cubeta_a60a5a4f4133ce02f1e4fe49bbe8b9ec7}{completar\+\_\+lavadora}} (\mbox{\hyperlink{class_lavadora}{Lavadora}} \&lav)
+\begin{DoxyCompactList}\small\item\em Completa una lavadora con las prendas de la cubeta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cubeta_a3153ac390389f689bead058cd0b1690e}{escribir}} () const
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Representa una cubeta de ropa. 
+
+Puede contener prendas blancas y de color. Puede usarse para intentar llenar una lavadora; en ese caso, las prendas se sacan de la cubeta en orden inverso al de entrada 
+
+Definición en la línea 21 del archivo Cubeta.\+hh.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_cubeta_ae85e70c9cd67454446439891e3f435e1}\label{class_cubeta_ae85e70c9cd67454446439891e3f435e1}} 
+\index{Cubeta@{Cubeta}!Cubeta@{Cubeta}}
+\index{Cubeta@{Cubeta}!Cubeta@{Cubeta}}
+\subsubsection{\texorpdfstring{Cubeta()}{Cubeta()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Cubeta\+::\+Cubeta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar una cubeta. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una cubeta sin prendas de ningún tipo 
+\end{DoxyPostcond}
+\begin{DoxyParagraph}{Coste Constante}
+
+\end{DoxyParagraph}
+\mbox{\Hypertarget{class_cubeta_a9615e48038899c5732f61661585f12c7}\label{class_cubeta_a9615e48038899c5732f61661585f12c7}} 
+\index{Cubeta@{Cubeta}!Cubeta@{Cubeta}}
+\index{Cubeta@{Cubeta}!Cubeta@{Cubeta}}
+\subsubsection{\texorpdfstring{Cubeta()}{Cubeta()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Cubeta\+::\+Cubeta (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cubeta}{Cubeta}} \&}]{c }\end{DoxyParamCaption})}
+
+
+
+Creadora copiadora. 
+
+Permite declarar una cubeta nueva como copia de otra ya existente. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una cubeta igual que c 
+\end{DoxyPostcond}
+\begin{DoxyParagraph}{Coste Lineal respecto al número de prendas de c}
+
+\end{DoxyParagraph}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cubeta_a431873df8f99cebe56b4787a5271e395}\label{class_cubeta_a431873df8f99cebe56b4787a5271e395}} 
+\index{Cubeta@{Cubeta}!anadir\+\_\+prenda@{anadir\+\_\+prenda}}
+\index{anadir\+\_\+prenda@{anadir\+\_\+prenda}!Cubeta@{Cubeta}}
+\subsubsection{\texorpdfstring{anadir\+\_\+prenda()}{anadir\_prenda()}}
+{\footnotesize\ttfamily void Cubeta\+::anadir\+\_\+prenda (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_prenda}{Prenda}} \&}]{p }\end{DoxyParamCaption})}
+
+
+
+Añade una prenda a la cubeta. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El parámetro implícito pasa a contener sus prendas originales más p 
+\end{DoxyPostcond}
+\begin{DoxyParagraph}{Coste Constante}
+
+\end{DoxyParagraph}
+\mbox{\Hypertarget{class_cubeta_a60a5a4f4133ce02f1e4fe49bbe8b9ec7}\label{class_cubeta_a60a5a4f4133ce02f1e4fe49bbe8b9ec7}} 
+\index{Cubeta@{Cubeta}!completar\+\_\+lavadora@{completar\+\_\+lavadora}}
+\index{completar\+\_\+lavadora@{completar\+\_\+lavadora}!Cubeta@{Cubeta}}
+\subsubsection{\texorpdfstring{completar\+\_\+lavadora()}{completar\_lavadora()}}
+{\footnotesize\ttfamily void Cubeta\+::completar\+\_\+lavadora (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lavadora}{Lavadora}} \&}]{lav }\end{DoxyParamCaption})}
+
+
+
+Completa una lavadora con las prendas de la cubeta. 
+
+\begin{DoxyPrecond}{Precondición}
+lav está inicializada 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han eliminado del parámetro implícito y se han añadido a lav las prendas del parámetro implícito del color adecuado que más se acercan entre todas al peso máximo de lav sin pasarse, elegiéndose primero las que se introdujeron en último lugar 
+\end{DoxyPostcond}
+\begin{DoxyParagraph}{Coste Lineal respecto al número de prendas del parámetro implícito }
+
+\end{DoxyParagraph}
+\mbox{\Hypertarget{class_cubeta_a3153ac390389f689bead058cd0b1690e}\label{class_cubeta_a3153ac390389f689bead058cd0b1690e}} 
+\index{Cubeta@{Cubeta}!escribir@{escribir}}
+\index{escribir@{escribir}!Cubeta@{Cubeta}}
+\subsubsection{\texorpdfstring{escribir()}{escribir()}}
+{\footnotesize\ttfamily void Cubeta\+::escribir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Escribe el contenido del parámetro implícito por el canal estándar de salida 
+\end{DoxyPostcond}
+\begin{DoxyParagraph}{Coste Lineal respecto al número de prendas del parámetro implícito }
+
+\end{DoxyParagraph}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_cubeta_8hh}{Cubeta.\+hh}}\end{DoxyCompactItemize}

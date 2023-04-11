@@ -1,0 +1,54 @@
+# MAKEFILE: utilidad para preparar ejecutables en los que intervienen
+# varias clases, de forma que con una unica instruccion se compilan o linkan
+# los ficheros estrictamente necesarios.
+#
+# Si en el directorio solo hay un proyecto y un makefile, para ejecutar este
+# simplemente se escribe "make"
+#
+# Un makefile se compone de una serie de instrucciones con la estructura:
+#
+#           fichero1":" lista de ficheros 
+#           "tabulador" instrucción de compilación o linkado	
+#
+# Esto significa: para obtener el fichero1 es necesario que existan todos
+# los ficheros de la lista; si no existe o es más antiguo que alguno de ellos,
+# se obtiene o actualiza con la instruccion; si no existe alguno de los
+# ficheros de la lista, el proceso acaba con error
+# 
+# Un makefile ha de contener todas las instrucciones que sean necesarias
+# para obtener los .o y .exe del proyecto.
+#
+# Ejemplos:
+#
+# Podemos definir variables de entorno locales al Makefile;
+# de hecho el alias p2++ original no funciona aqui
+#
+OPCIONS = -D_GLIBCXX_DEBUG -O2 -Wall -Wextra -Werror -Wno-sign-compare -std=c++11
+#
+# La siguiente instruccion significa:
+# para obtener mida_arbre.exe han de existir mida_arbre.o y BinTreeIOint.o;
+# si mida_arbre.exe no existe o es mas antiguo que mida_arbre.o,
+# se obtiene con la instruccion g++ -o ... (el tabulador antes de g++ es necesario)
+#
+mida_arbre.exe: mida_arbre.o BinTreeIOint.o
+	g++ -o mida_arbre.exe mida_arbre.o BinTreeIOint.o
+#
+# La siguiente instruccion significa:
+# para obtener mida_arbre.o es necesario que exista mida_arbre.cc y BinTreeIOint.hh;
+# si mida_arbre.o no existe o es mas antiguo que alguno de ellos,
+# se obtiene con la instruccion g++ -c ... 
+#
+mida_arbre.o: mida_arbre.cc BinTreeIOint.hh
+	g++ -c mida_arbre.cc $(OPCIONS) 
+#
+# se repite el proceso para BinTreeIOint.o
+#
+BinTreeIOint.o: BinTreeIOint.cc BinTreeIOint.hh
+	g++ -c BinTreeIOint.cc  $(OPCIONS) 
+
+# Esta última opción sirve para limpiar el directorio de ficheros 
+# innecesarios; se ejecuta mediante el comando "make clean"
+#
+clean:
+	rm *.o
+	rm *.exe
